@@ -46,11 +46,11 @@ Push to `dev-lead` after each task. Open PR into `dev` at the end of each phase.
 
 ## Phase 4 — Notes Generation (LLM)
 
-- [ ] Design summarization prompt producing all required fields as valid JSON → commit + push
-- [ ] Implement LLM call: transcript + prompt → Groq Llama/Qwen → parse response → commit + push
-- [ ] Handle malformed JSON: detect, retry once, return structured error → commit + push
-- [ ] Validate output: check all required fields present → commit + push
-- [ ] **TEST**: Generate notes from 1-min, 5-min, 10-min transcripts; verify all fields populated → commit + push
+- [x] Design summarization prompt producing all required fields as valid JSON → commit + push
+- [x] Implement LLM call: transcript + prompt → Groq Llama/Qwen → parse response → commit + push
+- [x] Handle malformed JSON: detect, retry once, return structured error → commit + push
+- [x] Validate output: check all required fields present → commit + push
+- [x] **TEST**: Generate notes from 1-min, 5-min, 10-min transcripts; verify all fields populated → commit + push
 
 ## Phase 5 — AI Academic Tutor
 
