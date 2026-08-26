@@ -60,12 +60,12 @@ Push to `dev-lead` after each task. Open PR into `dev` at the end of each phase.
 
 ## Phase 6 — Pipeline Integration with Backend
 
-- [ ] Expose clean interfaces for backend: `transcribe(filePath)`, `generateNotes(transcript)`, `chat({...})` → commit + push
+- [x] Expose clean interfaces for backend: `transcribe(filePath)`, `generateNotes(transcript)`, `chat({...})` → commit + push
   - **Coordinate with backend**: agree on function signatures or HTTP contracts
-- [ ] Test full pipeline end-to-end: audio → routing → transcription → notes → tutor → commit + push
-- [ ] Test edge cases: very short audio, max length, silence, noisy audio → commit + push
-- [ ] Document tunable parameters (routing thresholds, prompt templates) → commit + push
-- [ ] **TEST**: Complete pipeline produces valid results for all supported file types and durations → commit + push
+- [x] Test full pipeline end-to-end: audio → routing → transcription → notes → tutor → commit + push
+- [x] Test edge cases: very short audio, max length, silence, noisy audio → commit + push
+- [x] Document tunable parameters (routing thresholds, prompt templates) → commit + push
+- [x] **TEST**: Complete pipeline produces valid results for all supported file types and durations → commit + push
 
 ## Phase 7 — Local Dev Environment Verification
 
