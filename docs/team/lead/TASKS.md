@@ -19,12 +19,12 @@ Push to `dev-lead` after each task. Open PR into `dev` at the end of each phase.
 
 ## Phase 1 — Griot Nano 1 Sidecar
 
-- [ ] Set up `griot_sidecar/` with FastAPI, `requirements.txt` → commit + push
-- [ ] Implement `GET /health` endpoint → commit + push
-- [ ] Load `Qlerqly/griot-nano-1` model (ConformerCTC) → commit + push
-- [ ] Implement `POST /transcribe`: accept audio, preprocess, inference, return `{ transcript, language, engine: "griot-nano-1" }` → commit + push
-- [ ] Handle errors: unsupported format, model loading, inference timeout → commit + push
-- [ ] **TEST**: Transcribe MP3, WAV, M4A files; verify output shape and error handling → commit + push
+- [x] Set up `griot_sidecar/` with FastAPI, `requirements.txt` → commit + push
+- [x] Implement `GET /health` endpoint → commit + push
+- [x] Load `Qlerqly/griot-nano-1` model (ConformerCTC) → commit + push
+- [x] Implement `POST /transcribe`: accept audio, preprocess, inference, return `{ transcript, language, engine: "griot-nano-1" }` → commit + push
+- [x] Handle errors: unsupported format, model loading, inference timeout → commit + push
+- [x] **TEST**: Transcribe MP3, WAV, M4A files; verify output shape and error handling → commit + push
 
 ## Phase 2 — Groq Whisper Integration
 
