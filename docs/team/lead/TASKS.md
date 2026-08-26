@@ -1,9 +1,9 @@
 # TASKS.md — Team Lead (AI Pipeline + Deployment + QA)
 
-**Branch: `dev/lead`**
+**Branch: `dev-lead`**
 **Repo: `https://github.com/Kofi011/LsTeam.git`**
 
-Push to `dev/lead` after each task. Open PR into `dev` at the end of each phase.
+Push to `dev-lead` after each task. Open PR into `dev` at the end of each phase.
 **Test every feature before committing — do not push untested code.**
 
 ---
@@ -12,7 +12,7 @@ Push to `dev/lead` after each task. Open PR into `dev` at the end of each phase.
 
 - [ ] Initialize LsTeam repo with `.gitignore`, `README.md`, and `docs/` → commit + push to `main`
 - [ ] Create `dev` branch off `main` → push
-- [ ] Create `dev/frontend`, `dev/backend`, `dev/lead` branches off `dev` → push all
+- [ ] Create `dev-frontend`, `dev-backend`, `dev-lead` branches off `dev` → push all
 - [ ] Add team documentation (`docs/TEAM.md`, `docs/team/` role folders) → commit + push
 - [ ] Create `.env.example` with all placeholder keys → commit + push
 - [ ] Verify all collaborators can clone and checkout their branches

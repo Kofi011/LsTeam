@@ -81,7 +81,7 @@ Coordinate with the backend person on function signatures or HTTP endpoints.
 ## Lead Responsibilities
 
 ### PR Reviews & Merging
-- Review and merge all PRs from `dev/frontend` and `dev/backend` into `dev`
+- Review and merge all PRs from `dev-frontend` and `dev-backend` into `dev`
 - You are the only one who merges `dev` → `main`
 
 ### Deployment

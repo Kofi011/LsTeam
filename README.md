@@ -27,9 +27,9 @@ in the lecture content.
 
 | Role | Branch | Scope |
 |---|---|---|
-| **Frontend / UI** | `dev/frontend` | All React pages, components, styling, client-side logic |
-| **Backend / API** | `dev/backend` | Express server, routes, database, auth, file validation |
-| **Team Lead** | `dev/lead` | AI pipeline (Whisper + Griot), deployment, QA, PR reviews |
+| **Frontend / UI** | `dev-frontend` | All React pages, components, styling, client-side logic |
+| **Backend / API** | `dev-backend` | Express server, routes, database, auth, file validation |
+| **Team Lead** | `dev-lead` | AI pipeline (Whisper + Griot), deployment, QA, PR reviews |
 
 See [`docs/TEAM.md`](docs/TEAM.md) for full workflow details.
 

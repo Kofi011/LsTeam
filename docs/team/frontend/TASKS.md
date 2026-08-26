@@ -1,9 +1,9 @@
 # TASKS.md — Frontend / UI
 
-**Branch: `dev/frontend`**
+**Branch: `dev-frontend`**
 **Repo: `https://github.com/Kofi011/LsTeam.git`**
 
-Push to `dev/frontend` after each task. Open PR into `dev` at the end of each phase.
+Push to `dev-frontend` after each task. Open PR into `dev` at the end of each phase.
 **Test every feature before committing — do not push untested code.**
 
 ---

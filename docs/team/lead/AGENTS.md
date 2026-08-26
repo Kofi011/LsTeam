@@ -13,16 +13,16 @@ Follow these rules for every session.
 ## Git workflow (required)
 
 - Work one task at a time, in the order listed in `TASKS.md`.
-- Commit your work to `dev/lead` — never push directly to `main`.
+- Commit your work to `dev-lead` — never push directly to `main`.
 - After each task is complete **and tested**, commit and push:
   ```bash
   git add .
   git commit -m "type: short description"
-  git push origin dev/lead
+  git push origin dev-lead
   ```
 - Use prefixes: `feat:` `fix:` `chore:` `docs:` `refactor:`
 - Mark the task `[x]` in TASKS.md after committing.
-- At the end of each phase, open a PR from `dev/lead` → `dev`.
+- At the end of each phase, open a PR from `dev-lead` → `dev`.
 
 ## Build rules
 
@@ -67,5 +67,5 @@ When reviewing PRs from frontend or backend:
 ## Repository
 
 - Remote: `https://github.com/Kofi011/LsTeam.git`
-- Your branch: `dev/lead`
+- Your branch: `dev-lead`
 - You merge: `dev` → `main` (only you)

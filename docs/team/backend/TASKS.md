@@ -1,9 +1,9 @@
 # TASKS.md — Backend / API
 
-**Branch: `dev/backend`**
+**Branch: `dev-backend`**
 **Repo: `https://github.com/Kofi011/LsTeam.git`**
 
-Push to `dev/backend` after each task. Open PR into `dev` at the end of each phase.
+Push to `dev-backend` after each task. Open PR into `dev` at the end of each phase.
 **Test every feature before committing — do not push untested code.**
 
 ---

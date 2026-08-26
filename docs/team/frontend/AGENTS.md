@@ -13,16 +13,16 @@ Follow these rules for every session.
 ## Git workflow (required)
 
 - Work one task at a time, in the order listed in `TASKS.md`.
-- Only commit and push to `dev/frontend` — never touch `dev` or `main`.
+- Only commit and push to `dev-frontend` — never touch `dev` or `main`.
 - After each task is complete **and tested**, commit and push:
   ```bash
   git add .
   git commit -m "type: short description"
-  git push origin dev/frontend
+  git push origin dev-frontend
   ```
 - Use prefixes: `feat:` `fix:` `chore:` `docs:` `refactor:`
 - Mark the task `[x]` in TASKS.md after committing.
-- At the end of each phase, open a PR from `dev/frontend` → `dev`.
+- At the end of each phase, open a PR from `dev-frontend` → `dev`.
 
 ## Build rules
 
@@ -55,4 +55,4 @@ If a test fails, fix it before pushing. Never push broken code.
 ## Repository
 
 - Remote: `https://github.com/Kofi011/LsTeam.git`
-- Your branch: `dev/frontend`
+- Your branch: `dev-frontend`

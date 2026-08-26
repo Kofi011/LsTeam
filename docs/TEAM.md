@@ -4,24 +4,24 @@
 
 | Role | Branch | Scope |
 |---|---|---|
-| **Frontend / UI** | `dev/frontend` | All React pages, components, styling, client-side logic, PDF export |
-| **Backend / API** | `dev/backend` | Express server, all API routes, PostgreSQL, auth, trial gating, file validation, security |
-| **Team Lead** | `dev/lead` | AI pipeline (Groq Whisper + Griot Nano 1 + LLM notes + Tutor), deployment, infra, E2E QA, PR reviews |
+| **Frontend / UI** | `dev-frontend` | All React pages, components, styling, client-side logic, PDF export |
+| **Backend / API** | `dev-backend` | Express server, all API routes, PostgreSQL, auth, trial gating, file validation, security |
+| **Team Lead** | `dev-lead` | AI pipeline (Groq Whisper + Griot Nano 1 + LLM notes + Tutor), deployment, infra, E2E QA, PR reviews |
 
 ## Branch Map
 
 ```
 main                ← Production. Only lead merges here.
  └── dev            ← Integration branch. PRs land here first.
-      ├── dev/frontend     ← Frontend person's working branch
-      ├── dev/backend      ← Backend person's working branch
-      └── dev/lead         ← Lead's working branch (AI pipeline + infra)
+      ├── dev-frontend     ← Frontend person's working branch
+      ├── dev-backend      ← Backend person's working branch
+      └── dev-lead         ← Lead's working branch (AI pipeline + infra)
 ```
 
 ## Workflow
 
 1. Each member commits and pushes **only to their own branch**.
-2. When a meaningful chunk of work is ready, open a **PR from `dev/{role}` into `dev`**.
+2. When a meaningful chunk of work is ready, open a **PR from `dev-{role}` into `dev`**.
 3. **The lead reviews and merges PRs into `dev`**. No one merges their own PR without review.
 4. **Only the lead merges `dev` into `main`** — after E2E testing and team sign-off.
 5. **Every agent must test code before opening a PR** — run the relevant test suite, verify the feature works, and include test results in the PR description.
