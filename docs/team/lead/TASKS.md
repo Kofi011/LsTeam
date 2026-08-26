@@ -10,12 +10,12 @@ Push to `dev-lead` after each task. Open PR into `dev` at the end of each phase.
 
 ## Phase 0 — Repo & Branch Setup
 
-- [ ] Initialize LsTeam repo with `.gitignore`, `README.md`, and `docs/` → commit + push to `main`
-- [ ] Create `dev` branch off `main` → push
-- [ ] Create `dev-frontend`, `dev-backend`, `dev-lead` branches off `dev` → push all
-- [ ] Add team documentation (`docs/TEAM.md`, `docs/team/` role folders) → commit + push
-- [ ] Create `.env.example` with all placeholder keys → commit + push
-- [ ] Verify all collaborators can clone and checkout their branches
+- [x] Initialize LsTeam repo with `.gitignore`, `README.md`, and `docs/` → commit + push to `main`
+- [x] Create `dev` branch off `main` → push
+- [x] Create `dev-frontend`, `dev-backend`, `dev-lead` branches off `dev` → push all
+- [x] Add team documentation (`docs/TEAM.md`, `docs/team/` role folders) → commit + push
+- [x] Create `.env.example` with all placeholder keys → commit + push
+- [x] Verify all collaborators can clone and checkout their branches
 
 ## Phase 1 — Griot Nano 1 Sidecar
 
