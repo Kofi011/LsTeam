@@ -37,12 +37,12 @@ Push to `dev-lead` after each task. Open PR into `dev` at the end of each phase.
 
 ## Phase 3 — Intelligent ASR Routing
 
-- [ ] Implement ~20-30s audio sample extraction for routing decisions → commit + push
-- [ ] Implement routing logic: evaluate Whisper sample's language + confidence signals → commit + push
-- [ ] Route: high-confidence English → Whisper; low confidence / non-English → Griot → commit + push
-- [ ] Implement fallback: if Griot unreachable → Whisper-only with warning → commit + push
-- [ ] Normalize both engines to `{ transcript, language, engine }` → commit + push
-- [ ] **TEST**: Clear English → Whisper; accented → Griot; sidecar down → Whisper fallback → commit + push
+- [x] Implement ~20-30s audio sample extraction for routing decisions → commit + push
+- [x] Implement routing logic: evaluate Whisper sample's language + confidence signals → commit + push
+- [x] Route: high-confidence English → Whisper; low confidence / non-English → Griot → commit + push
+- [x] Implement fallback: if Griot unreachable → Whisper-only with warning → commit + push
+- [x] Normalize both engines to `{ transcript, language, engine }` → commit + push
+- [x] **TEST**: Clear English → Whisper; accented → Griot; sidecar down → Whisper fallback → commit + push
 
 ## Phase 4 — Notes Generation (LLM)
 
