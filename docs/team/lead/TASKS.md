@@ -54,9 +54,9 @@ Push to `dev-lead` after each task. Open PR into `dev` at the end of each phase.
 
 ## Phase 5 — AI Academic Tutor
 
-- [ ] Design tutor system prompt: answer only from transcript, refuse off-topic → commit + push
-- [ ] Implement tutor function: `{ message, transcript, history }` → LLM call → `{ reply }` → commit + push
-- [ ] **TEST**: Ask covered questions → answers; ask uncovered questions → refuses; multi-turn → uses history → commit + push
+- [x] Design tutor system prompt: answer only from transcript, refuse off-topic → commit + push
+- [x] Implement tutor function: `{ message, transcript, history }` → LLM call → `{ reply }` → commit + push
+- [x] **TEST**: Ask covered questions → answers; ask uncovered questions → refuses; multi-turn → uses history → commit + push
 
 ## Phase 6 — Pipeline Integration with Backend
 
