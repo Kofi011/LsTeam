@@ -28,12 +28,12 @@ Push to `dev-lead` after each task. Open PR into `dev` at the end of each phase.
 
 ## Phase 2 — Groq Whisper Integration
 
-- [ ] Set up Groq SDK in Node.js (`groq-sdk`) → commit + push
-- [ ] Implement Whisper transcription: send audio to `whisper-large-v3-turbo` with `verbose_json` → commit + push
-- [ ] Parse response: extract transcript, language, `avg_logprob`, `no_speech_prob` → commit + push
-- [ ] Return normalized: `{ transcript, language: "en", engine: "whisper" }` → commit + push
-- [ ] Handle errors: rate limits, timeouts, invalid audio → specific error codes → commit + push
-- [ ] **TEST**: Transcribe clear English audio; verify transcript quality and metadata → commit + push
+- [x] Set up Groq SDK in Node.js (`groq-sdk`) → commit + push
+- [x] Implement Whisper transcription: send audio to `whisper-large-v3-turbo` with `verbose_json` → commit + push
+- [x] Parse response: extract transcript, language, `avg_logprob`, `no_speech_prob` → commit + push
+- [x] Return normalized: `{ transcript, language: "en", engine: "whisper" }` → commit + push
+- [x] Handle errors: rate limits, timeouts, invalid audio → specific error codes → commit + push
+- [x] **TEST**: Transcribe clear English audio; verify transcript quality and metadata → commit + push
 
 ## Phase 3 — Intelligent ASR Routing
 
